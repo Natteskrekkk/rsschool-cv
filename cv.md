@@ -1,5 +1,5 @@
 # Timofey Gribanov
-***Email***: timofey.gribanov@gmail.com
+***Email***: <timofey.gribanov@gmail.com>  
 ***Discord***: [@Natteskrekkk](https://discord.com/channels/@natteskrekkk)
 
 ## **About**
@@ -23,25 +23,25 @@ No programming skills, but there is a desire to get them.
 ***CV*** (*[link](https://google.com)*)
 
 ## **Work experience**
-*  ***D2D Controlling Superviser***
-Danone Belarus
+*  ***D2D Controlling Superviser***  
+Danone Belarus  
 May 2022 - at the moment
 
-*  ***Cycles & Procurement Controlling Specialist***
-Danone Belarus
+*  ***Cycles & Procurement Controlling Specialist***  
+Danone Belarus  
 Sep 2020 - May 2021
 
-*  ***Specialist***
-Danone Belarus
+*  ***Specialist***  
+Danone Belarus  
 Mar 2019 - Aug 2020
 
 ## **Education**
-*  ***Belarusian State Economic University***
-Master's degree, International Economic Relations
+*  ***Belarusian State Economic University***  
+Master's degree, International Economic Relations  
 2019 - 2021
 
- *  ***Belarusian State Economic University***
-Bachelor's degree, International Economic Relations
+ *  ***Belarusian State Economic University***  
+Bachelor's degree, International Economic Relations  
 2015 - 2019
 
 ## **Level of English**
