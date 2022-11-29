@@ -20,7 +20,7 @@ No programming skills, but there is a desire to get them.
 ```
 
 ## **Projects**
-***CV*** (*[link](https://google.com)*)
+***CV*** (*[link](https://natteskrekkk.github.io/rsschool-cv/cv)*)
 
 ## **Work experience**
 *  ***D2D Controlling Superviser***  
