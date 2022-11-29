@@ -1,3 +1,5 @@
+![CV photo](https://media-exp1.licdn.com/dms/image/C4D03AQHb2lw7L3oIpw/profile-displayphoto-shrink_800_800/0/1606836941226?e=1675296000&v=beta&t=E9qTUQYkUiy0nnliODwMNe-a9gYWej7O2eX7us4HGA4)
+
 # Timofey Gribanov
 ***Email***: <timofey.gribanov@gmail.com>  
 ***Discord***: [@Natteskrekkk](https://discord.com/channels/@natteskrekkk)
