@@ -1,4 +1,270 @@
-h1 {
-    color: blueviolet;
-    background-color: chartreuse;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Ubuntu;
+    background-color: #EC6868;
+    background-image: url('assets/img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+main {
+    background-color: #1e1e1e30;
+    border-radius: 25px;
+    margin: auto;
+    padding: 35px;
+    display: flex;
+}
+
+section.left-section {
+    margin-right: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.block {
+    height: auto;
+    background-color: #1e1e1e;
+    border-radius: 25px;
+    padding: 30px;
+    margin-bottom: 25px;
+    max-width: 800px;
+}
+
+.white {
+    margin-bottom: 10px;
+    padding: 15px 15px;
+    background-color: #ffffff50;
+}
+
+.block.white {
+    max-width: 475px;
+    height: auto;
+}
+
+.block.white.skills-tools {
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.transp {
+    height: auto;
+    width: auto;
+    background-color: transparent;
+    padding: 0;
+}
+
+div {
+    background-color: none;
+    border-radius: 25px;
+    padding-bottom: 25px;
+}
+
+h1,
+h2 {
+    font-weight: 700;
+    padding-bottom: 20px;
+    color: #ffffff;
+}
+
+h3 {
+    font-weight: 500;
+    color: #ffffff;
+}
+
+p {
+    color: #ffffff95;
+}
+
+.side-color {
+    color: #ffffff90;
+    /* text-indent: 15px; */
+}
+
+h2.side-color {
+    padding-bottom: 15px;
+}
+
+.about-color {
+    color: #68ADEC;
+}
+
+.work-color {
+    color: #EC6868;
+}
+
+.projects-color {
+    color: #ECC768;
+}
+
+.code-color {
+    pa color: #68EC8D;
+}
+
+.about-p {
+    padding-bottom: 8px;
+    text-indent: 20px;
+}
+
+.name-text {
+    display: inline-block;
+}
+
+div p.projects-img {
+    text-indent: 20px;
+}
+
+.links {
+    /* padding: 0 15px; */
+    padding-bottom: 15px;
+}
+
+#rs_school_js {
+    max-width: 100px;
+    min-width: 50px;
+    height: auto;
+}
+
+ul {
+    margin: 25px auto;
+}
+
+li {
+    color: #1e1e1e;
+    display: inline;
+    margin-right: 15px;
+}
+
+.circle {
+    border-radius: 100%;
+}
+
+/* img.me {
+    max-width: 375px;
+    height: auto;
+    margin-bottom: 30px;
+} */
+
+/* коллектор общий */
+div.flex-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+/* иконка слева для образования  */
+div.education-img img {
+    width: 70px;
+    height: 70px;
+}
+
+div.education-img {
+    padding-bottom: 0;
+    align-content: center;
+}
+
+/* текст справа для образования */
+div.education-img-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 0;
+    padding-left: 15px;
+}
+
+/* иконка слева для ссылок  */
+div.links-img {
+    padding-bottom: 0;
+    /* width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: #EC6868; */
+}
+
+div.links-img img {
+    width: 50px;
+    height: 50px;
+}
+
+/* текст справа для ссылок */
+h3.links-img {
+    display: flex;
+    flex-basis: 95%;
+    padding-left: 15px;
+}
+
+/* иконка слева для проектов */
+div.projects-img {
+    padding-bottom: 0;
+}
+
+div.projects-img img {
+    width: 100px;
+    height: 100px;
+}
+
+/* текст справа для проектов */
+p.projects-img {
+    display: flex;
+    flex-basis: 90%;
+    padding-left: 20px;
+
+}
+
+img.circle.cv-photo {
+    max-width: 375px;
+    height: auto;
+    margin-bottom: 20px;
+    align-self: center;
+}
+
+#name-mobile .name-text {
+    /* display: block; */
+}
+
+@media (min-width: 866px) {
+    #name-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 865px) {
+    body {
+        font-size: 36px;
+    }
+
+    main {
+        /* background-color: #1e1e1e30;
+        border-radius: 25px;
+        margin: auto;
+        padding: 35px;
+        display: flex; */
+        flex-direction: column;
+        /* align-items: center; */
+    }
+
+    section.left-section {
+        margin-right: 0;
+        /* display: flex;
+        flex-direction: column; */
+    }
+
+    #name-hide {
+        display: none;
+    }
+
+
+
 }
