@@ -14,13 +14,39 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
+header {
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between; */
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 25px 10px;
+}
+
+li {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #1e1e1e30;
+    border-radius: 25px;
+    color: #ffffff99;
+    font-weight: 700;
+    display: inline;
+    margin: 5px 10px;
+}
 
 main {
     background-color: #1e1e1e30;
     border-radius: 25px;
-    margin: auto;
+    margin: 0 25px;
     padding: 35px;
     display: flex;
 }
@@ -65,7 +91,7 @@ section.left-section {
 }
 
 div {
-    background-color: none;
+    background-color: transparent;
     border-radius: 25px;
     padding-bottom: 25px;
 }
@@ -108,7 +134,7 @@ h2.side-color {
 }
 
 .code-color {
-    pa color: #68EC8D;
+    color: #68EC8D;
 }
 
 .about-p {
@@ -127,22 +153,6 @@ div p.projects-img {
 .links {
     /* padding: 0 15px; */
     padding-bottom: 15px;
-}
-
-#rs_school_js {
-    max-width: 100px;
-    min-width: 50px;
-    height: auto;
-}
-
-ul {
-    margin: 25px auto;
-}
-
-li {
-    color: #1e1e1e;
-    display: inline;
-    margin-right: 15px;
 }
 
 .circle {
@@ -234,22 +244,72 @@ img.circle.cv-photo {
     /* display: block; */
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 15px 10px;
+    align-items: center;
+}
+
+p.footer {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #1e1e1e30;
+    border-radius: 25px;
+    color: #ffffff99;
+    font-weight: 500;
+    margin: 5px 10px;
+}
+
+div.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 0;
+}
+
+#rs_school_js {
+    display: inline-block;
+    max-width: 300px;
+    min-width: 120px;
+    height: auto;
+    margin: 15px 0 0 0;
+}
+
+/* ------ MENU BURGER START ------ */
+
+
+/* ------ MENU BURGER END ------ */
+
+@media (max-width: 991.98px) {
+    main {
+        margin: 0;
+    }
+
+}
+
 @media (min-width: 866px) {
     #name-mobile {
         display: none;
     }
 }
 
-@media (max-width: 865px) {
+@media (max-width: 865.98px) {
     body {
-        font-size: 36px;
+        font-size: 22px;
+    }
+
+    ul {
+        margin: 10px 10px;
     }
 
     main {
         /* background-color: #1e1e1e30;
-        border-radius: 25px;
-        margin: auto;
-        padding: 35px;
+        border-radius: 25px; */
+        /* margin: 25px; */
+        /* padding: 35px;
         display: flex; */
         flex-direction: column;
         /* align-items: center; */
@@ -261,10 +321,103 @@ img.circle.cv-photo {
         flex-direction: column; */
     }
 
+    img.circle.cv-photo {
+        margin: 0 0 35px 0;
+    }
+
+    #name-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        padding-bottom: 15px;
+    }
+
+    h3.name-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    span {
+        display: none;
+    }
+
     #name-hide {
         display: none;
     }
 
+    @media screen and (max-width: 576px) {
+
+        body {
+            font-size: 16px;
+        }
+
+        main {
+            padding: 15px;
+        }
+
+        img.circle.cv-photo {
+            max-width: 285px;
+            height: auto;
+            margin: 20px 0 35px 0;
+            align-self: center;
+        }
+
+        span {
+            display: none;
+        }
+
+        #name-mobile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            padding-bottom: 15px;
+        }
+
+        h3.name-text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h2.projects-color {
+            padding-bottom: 0;
+        }
+
+        div.flex-img.projects-img-min {
+            flex-direction: column;
+            padding-bottom: 0px;
+            margin-top: 30px;
+        }
 
 
+        p.projects-img {
+            /* display: flex; */
+            /* flex-basis: 90%; */
+            padding-left: 0px;
+            padding-top: 20px;
+
+        }
+
+        .block .block.white.flex-img {}
+
+        .transp {}
+
+        .left-section {}
+    }
+
+    @media screen and (max-width: 395px) {
+        img.circle.cv-photo {
+            max-width: 250px;
+            height: auto;
+            margin-bottom: 40px;
+            align-self: center;
+        }
+    }
 }
