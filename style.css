@@ -4,9 +4,13 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth
+}
+
 body {
     font-family: Ubuntu;
-    background-color: #EC6868;
+    background-color: #4a8792;
     background-image: url('assets/img/bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,7 +18,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    /* backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px); */
 }
 
 header {
@@ -24,7 +29,7 @@ header {
     align-content: space-between; */
 }
 
-ul {
+ul.menu {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -32,7 +37,7 @@ ul {
     margin: 25px 10px;
 }
 
-li {
+li.navbar {
     display: inline-block;
     padding: 5px 10px;
     background-color: #1e1e1e30;
@@ -41,6 +46,26 @@ li {
     font-weight: 700;
     display: inline;
     margin: 5px 10px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+li.li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff90;
+}
+
+a:hover {
+    color: #ffc506;
+}
+
+a:active {
+    color: red;
 }
 
 main {
@@ -49,14 +74,21 @@ main {
     margin: 0 25px;
     padding: 35px;
     display: flex;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 }
+
 
 section.left-section {
     margin-right: 35px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 
+#code-anchor {
+    margin-bottom: 0px;
+}
 
 .block {
     height: auto;
@@ -81,6 +113,12 @@ section.left-section {
 .block.white.skills-tools {
     display: inline-block;
     padding: 5px 10px;
+}
+
+.block.white.code {
+    max-width: 1000px;
+    height: auto;
+    margin-bottom: 0;
 }
 
 .transp {
@@ -240,6 +278,11 @@ img.circle.cv-photo {
     align-self: center;
 }
 
+div a img:hover {
+    border-radius: 100px;
+    border: 3px solid #ffc506;
+}
+
 #name-mobile .name-text {
     /* display: block; */
 }
@@ -261,6 +304,8 @@ p.footer {
     color: #ffffff99;
     font-weight: 500;
     margin: 5px 10px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 }
 
 div.footer {
@@ -301,8 +346,13 @@ div.footer {
         font-size: 22px;
     }
 
-    ul {
+    ul.menu {
         margin: 10px 10px;
+    }
+
+    .block.white {
+        max-width: 866px;
+        height: auto;
     }
 
     main {
@@ -404,12 +454,6 @@ div.footer {
             padding-top: 20px;
 
         }
-
-        .block .block.white.flex-img {}
-
-        .transp {}
-
-        .left-section {}
     }
 
     @media screen and (max-width: 395px) {
