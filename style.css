@@ -146,9 +146,14 @@ h3 {
     color: #ffffff;
 }
 
-p {
+p,
+code {
     color: #ffffff95;
 }
+
+/* code {
+    color: #4a8792;
+} */
 
 .side-color {
     color: #ffffff90;
