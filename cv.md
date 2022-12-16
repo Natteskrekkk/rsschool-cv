@@ -11,14 +11,10 @@ Starting from my second year at university, I began to think about the possibili
 No programming skills, but there is a desire to get them.
 
 ## **Code examples**
-```
-
-1
-
-2
-
-3
-
+```javascript
+function multiply(a, b){
+ return a * b
+}
 ```
 
 ## **Projects**
