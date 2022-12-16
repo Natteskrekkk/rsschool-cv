@@ -22,13 +22,6 @@ body {
     -webkit-backdrop-filter: blur(5px); */
 }
 
-header {
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: space-between; */
-}
-
 ul.menu {
     display: flex;
     flex-direction: row;
@@ -53,6 +46,12 @@ li.navbar {
 li.li {
     list-style-type: none;
     display: inline-block;
+}
+
+.links-collector {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
 }
 
 a {
@@ -83,7 +82,7 @@ section.left-section {
     margin-right: 35px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
+    margin-bottom: 0;
 }
 
 #code-anchor {
@@ -286,10 +285,6 @@ img.circle.cv-photo {
 div a img:hover {
     border-radius: 100px;
     border: 3px solid #ffc506;
-}
-
-#name-mobile .name-text {
-    /* display: block; */
 }
 
 footer {
