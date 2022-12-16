@@ -41,6 +41,32 @@ li {
     font-weight: 700;
     display: inline;
     margin: 5px 10px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+li.li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.links-collector {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff90;
+}
+
+a:hover {
+    color: #ffc506;
+}
+
+a:active {
+    color: red;
 }
 
 main {
@@ -55,6 +81,7 @@ section.left-section {
     margin-right: 35px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 0;
 }
 
 
